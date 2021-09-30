@@ -13,13 +13,7 @@ const contactLinks = [
         current: false,
     },
 ]
-const headerLinks = [
-    {
-        text: "nexgen",
-        url: "#",
-        current: false,
-    },
-    {
+const headerLinks = [    {
         text: "home",
         url: "#",
         current: false,
