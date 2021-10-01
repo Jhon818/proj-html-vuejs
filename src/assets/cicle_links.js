@@ -52,11 +52,11 @@ const headerLinks = [    {
 
 const footerContact = [
     {
-        text: "nexgen",
         description: "A Functional Html Template for Corporate & Business.",
         number: "+1 (505) 1234 5678",
         mail: "hello@example.com",
-        position: "Main Avenue,987"
+        position: "Main Avenue,987",
+        button: "get in touch"
     },
 ]
 

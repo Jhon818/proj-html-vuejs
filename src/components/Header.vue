@@ -33,20 +33,20 @@
       </section>
     </ul>
 
-   
-
     <section>
-       <nav class="header-btm">
-      <div class="nexgen"><span class="nex">NEX<span class="gen">GEN</span></span></div>
-      <ul>
-        <li v-for="(link, index) in links" :key="index">
-          <a :class="link.current ? 'active' : null" :href="link.url">
-            {{ link.text }}
-          </a>
-        </li>
-      </ul>
-    </nav>
-      <img src="@/assets/img/bg-6.jpg" alt="">
+      <nav class="header-btm">
+        <div class="nexgen">
+          <span class="nex">NEX<span class="gen">GEN</span></span>
+        </div>
+        <ul>
+          <li v-for="(link, index) in links" :key="index">
+            <a :class="link.current ? 'active' : null" :href="link.url">
+              {{ link.text }}
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <img class="img-bg" src="@/assets/img/bg-6.jpg" alt="" />
     </section>
   </header>
 </template>
@@ -68,12 +68,6 @@ export default {
 <style scoped lang="scss">
 header ul:first-child {
   background: #3d4955;
-
-  section img {
-    height: 100vh;
-    width: 100%;
-   object-fit: cover;
-  }
 }
 header > ul {
   padding: 10px;
@@ -102,7 +96,6 @@ header > ul {
   display: flex;
   justify-content: center;
 
-
   li {
     margin: 1em;
   }
@@ -112,17 +105,16 @@ header > ul {
     color: white;
   }
 
-div.nexgen .nex {
-  border-radius: 20px 0px 0px 20px;
-background: #0483835b;
-width: 3em;
-padding: 10px;
-color: #22918e;
+  div.nexgen .nex {
+    border-radius: 20px 0px 0px 20px;
+    width: 3em;
+    padding: 10px;
+    color: #22918e;
 
-.gen {
-  color: black;
-}
-}
+    .gen {
+      color: black;
+    }
+  }
   .nexgen {
     display: flex;
     justify-content: center;
@@ -140,5 +132,11 @@ color: #22918e;
     text-transform: uppercase;
     text-decoration: none;
   }
+}
+
+img.img-bg {
+  height: 85vh;
+  width: 100%;
+  object-fit: cover;
 }
 </style>
