@@ -1,7 +1,7 @@
 
 const contactLinks = [
     {
-        text: "Open Hours " + new Date(),
+        text: "Open Hours Mon - Sat - 9:00 - 18:00",
         current: false,
     },
     {
@@ -13,41 +13,41 @@ const contactLinks = [
         current: false,
     },
 ]
-const headerLinks = [    {
-        text: "home",
-        url: "#",
-        current: false,
-    },
-    {
-        text: "about",
-        url: "#",
-        current: true,
-    },
-    {
-        text: "services",
-        url: "#",
-        current: false,
-    },
-    {
-        text: "process",
-        url: "#",
-        current: false,
-    },
-    {
-        text: "team",
-        url: "#",
-        current: false,
-    },
-    {
-        text: "blog",
-        url: "#",
-        current: false,
-    },
-    {
-        text: "get in touch",
-        url: "#",
-        current: false,
-    },
+const headerLinks = [{
+    text: "home",
+    url: "#",
+    current: false,
+},
+{
+    text: "about",
+    url: "#",
+    current: true,
+},
+{
+    text: "services",
+    url: "#",
+    current: false,
+},
+{
+    text: "process",
+    url: "#",
+    current: false,
+},
+{
+    text: "team",
+    url: "#",
+    current: false,
+},
+{
+    text: "blog",
+    url: "#",
+    current: false,
+},
+{
+    text: "get in touch",
+    url: "#",
+    current: false,
+},
 ]
 
 const footerContact = [
@@ -70,25 +70,25 @@ const footerAbout = {
     tech: "Technology"
 
 },
- footerServices = {
-    about: "Services",
-    company: "Audit & Assurance",
-    institutional: "Financial Advisory",
-    social: "Analitics M&A",
-    innovation: "Middle Marketing",
-    environment: "Legal Consulting",
-    tech: "Regulatory Risk"
+    footerServices = {
+        about: "Services",
+        company: "Audit & Assurance",
+        institutional: "Financial Advisory",
+        social: "Analitics M&A",
+        innovation: "Middle Marketing",
+        environment: "Legal Consulting",
+        tech: "Regulatory Risk"
 
-},
-footerSupport = {
-    about: "Support",
-    company: "Responsabilty",
-    institutional: "Terms Of Use",
-    social: "About Cookies ",
-    innovation: "Privacy Policy ",
-    environment: "Accessibility ",
-    tech: "Information "
+    },
+    footerSupport = {
+        about: "Support",
+        company: "Responsabilty",
+        institutional: "Terms Of Use",
+        social: "About Cookies ",
+        innovation: "Privacy Policy ",
+        environment: "Accessibility ",
+        tech: "Information "
 
-}
+    }
 
-export { headerLinks, footerContact, contactLinks, footerAbout, footerServices, footerSupport}
+export { headerLinks, footerContact, contactLinks, footerAbout, footerServices, footerSupport }

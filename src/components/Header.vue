@@ -10,7 +10,7 @@
 
       <section>
         <div>
-          <i class="fas fa-phone-square-alt"></i>
+          <i class="fas fa-phone-alt"></i>
           <span v-for="(contact, index) in contacts" :key="index">
             {{ contact.number }}</span
           >
@@ -25,10 +25,10 @@
 
         <div>
           <span
-            ><i class="fab fa-facebook"></i>
+            ><i class="fab fa-facebook-f"></i>
             <i class="fab fa-twitter"></i>
-            <i class="fab fa-linkedin"></i
-          ></span>
+            <i class="fab fa-linkedin-in"></i>
+          </span>
         </div>
       </section>
     </ul>
@@ -46,7 +46,20 @@
           </li>
         </ul>
       </nav>
-      <img class="img-bg" src="@/assets/img/bg-6.jpg" alt="" />
+      <div class="insurance-form">
+        <form action="">
+          <p>Funsions & Acquisitions</p>
+          <p>Insurance Consulting</p>
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <input type="text" placeholder="Phone" />
+          <input type="text" placeholder="More Info" />
+
+          <button>GET IN TOUCH</button>
+          <button>READ MORE</button>
+        </form>
+        <img class="img-bg" src="@/assets/img/bg-6.jpg" alt="" />
+      </div>
     </section>
   </header>
 </template>
@@ -100,6 +113,7 @@ header > ul {
     margin: 1em;
   }
   li:last-child a {
+    border-radius: 3px;
     background: #048383;
     padding: 10px;
     color: white;
@@ -107,6 +121,8 @@ header > ul {
 
   div.nexgen .nex {
     border-radius: 20px 0px 0px 20px;
+    background: #0483835b;
+    font-weight: bold;
     width: 3em;
     padding: 10px;
     color: #22918e;
@@ -135,8 +151,52 @@ header > ul {
 }
 
 img.img-bg {
-  height: 85vh;
+  height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+.insurance-form {
+  position: relative;
+  height: 85vh;
+  p:first-child {
+    color: #048383;
+    font-size: 20px;
+    font-weight: normal;
+  }
+  p {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  form {
+    width: 20rem;
+    position: absolute;
+    right: 20%;
+    top: 20%;
+
+    button {
+      background: #048383;
+      border-radius: 5px;
+      width: 130px;
+      color: white;
+      padding: 5px 5px 5px 5px;
+      margin: 5px;
+    }
+
+    button:last-child {
+      background: none;
+      color: #048383;
+      border: 1px solid #048383;
+    }
+
+    input {
+      width: 11em;
+      border: none;
+      background: #e8ecea;
+      margin: 5px;
+      padding: 10px;
+    }
+  }
 }
 </style>

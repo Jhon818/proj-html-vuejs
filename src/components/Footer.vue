@@ -37,13 +37,12 @@
               <i class="fas fa-chevron-right"></i>
             </button>
             <span>{{ linksabout.company }}</span>
-           
           </div>
-           <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </li>
         <li>
           <div class="dropdown">
@@ -51,13 +50,12 @@
               <i class="fas fa-chevron-right"></i>
             </button>
             <span>{{ linksabout.institutional }}</span>
-        
           </div>
-              <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </li>
         <li>
           <div class="dropdown">
@@ -65,13 +63,12 @@
               <i class="fas fa-chevron-right"></i>
             </button>
             <span>{{ linksabout.social }}</span>
-         
           </div>
-             <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </li>
         <li>
           <div class="dropdown">
@@ -79,13 +76,12 @@
               <i class="fas fa-chevron-right"></i>
             </button>
             <span>{{ linksabout.innovation }}</span>
-         
           </div>
-             <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </li>
         <li>
           <div class="dropdown">
@@ -93,13 +89,12 @@
               <i class="fas fa-chevron-right"></i>
             </button>
             <span>{{ linksabout.environment }}</span>
-            
           </div>
           <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </li>
         <li>
           <div class="dropdown">
@@ -107,13 +102,12 @@
               <i class="fas fa-chevron-right"></i>
             </button>
             <span>{{ linksabout.tech }}</span>
-            
           </div>
           <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </li>
       </ul>
 
@@ -127,13 +121,12 @@
               <i class="fas fa-chevron-right"></i>
             </button>
             <span>{{ linksServices.company }}</span>
-           
           </div>
-           <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </li>
         <li>
           <div class="dropdown">
@@ -141,13 +134,12 @@
               <i class="fas fa-chevron-right"></i>
             </button>
             <span>{{ linksServices.institutional }}</span>
-            
           </div>
           <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </li>
         <li>
           <div class="dropdown">
@@ -155,13 +147,12 @@
               <i class="fas fa-chevron-right"></i>
             </button>
             <span>{{ linksServices.social }}</span>
-           
           </div>
-           <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </li>
         <li>
           <div class="dropdown">
@@ -169,13 +160,12 @@
               <i class="fas fa-chevron-right"></i>
             </button>
             <span>{{ linksServices.innovation }}</span>
-            
           </div>
           <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </li>
         <li>
           <div class="dropdown">
@@ -183,13 +173,12 @@
               <i class="fas fa-chevron-right"></i>
             </button>
             <span>{{ linksServices.environment }}</span>
-           
           </div>
-           <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </li>
         <li>
           <div class="dropdown">
@@ -197,13 +186,12 @@
               <i class="fas fa-chevron-right"></i>
             </button>
             <span>{{ linksServices.tech }}</span>
-            
           </div>
           <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </li>
       </ul>
 
@@ -217,13 +205,12 @@
               <i class="fas fa-chevron-right"></i>
             </button>
             <span>{{ linksSupport.company }}</span>
-           
           </div>
-           <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </li>
         <li>
           <div class="dropdown">
@@ -231,13 +218,12 @@
               <i class="fas fa-chevron-right"></i>
             </button>
             <span>{{ linksSupport.institutional }}</span>
-           
           </div>
-           <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </li>
         <li>
           <div class="dropdown">
@@ -245,13 +231,12 @@
               <i class="fas fa-chevron-right"></i>
             </button>
             <span>{{ linksSupport.social }}</span>
-            
           </div>
           <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </li>
         <li>
           <div class="dropdown">
@@ -259,13 +244,12 @@
               <i class="fas fa-chevron-right"></i>
             </button>
             <span>{{ linksSupport.innovation }}</span>
-            
           </div>
           <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </li>
         <li>
           <div class="dropdown">
@@ -274,11 +258,11 @@
             </button>
             <span>{{ linksSupport.environment }}</span>
           </div>
-           <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </li>
         <li>
           <div class="dropdown">
@@ -287,11 +271,11 @@
             </button>
             <span>{{ linksSupport.tech }}</span>
           </div>
-           <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </li>
       </ul>
     </footer>
@@ -365,6 +349,7 @@ footer {
       width: 3em;
       padding: 6px 10px 10px 20px;
       color: #22918e;
+      font-weight: bold;
 
       .gen {
         color: white;
@@ -372,6 +357,8 @@ footer {
     }
     li:first-child {
       color: white;
+      font-weight: bold;
+      font-size: 20px;
       padding-bottom: 10px;
     }
   }
@@ -394,7 +381,9 @@ footer {
     .dropdown-content {
       display: none;
     }
-    &:hover .dropdown-content {display: block;}
+    &:hover .dropdown-content {
+      display: block;
+    }
 
     .dropdown {
       position: relative;
@@ -404,11 +393,9 @@ footer {
         color: white;
         padding-right: 5px;
 
-    background: none;
-    border: none;
-
+        background: none;
+        border: none;
       }
-
     }
   }
 }
@@ -419,6 +406,11 @@ footer {
   color: white;
   padding: 20px;
   justify-content: space-evenly;
+
+  a {
+    color: #0483835b;
+    text-decoration: none;
+  }
 }
 </style>
 
