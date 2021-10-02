@@ -54,6 +54,7 @@
           <input type="email" placeholder="Email" />
           <input type="text" placeholder="Phone" />
           <input type="text" placeholder="More Info" />
+          
 
           <button>GET IN TOUCH</button>
           <button>READ MORE</button>

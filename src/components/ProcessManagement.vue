@@ -1,68 +1,66 @@
 <template>
-      <section>
-        <div class="bs-area">
-          <h6>Our Business Area</h6>
-          <h2>Excellence in<span>Services</span></h2>
-          <div>
-             <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-            mollitia expedita nostrum repellat. At quidem laborum distinctio
+  <section>
+    <div class="bs-area">
+      <h6>how it works in practice</h6>
+      <h2><span>Process</span> Management</h2>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim mollitia
+          expedita nostrum repellat. At quidem laborum distinctio
+        </p>
+      </div>
+    </div>
+
+    <div class="flex">
+      <div class="box">
+          <div class="border"></div>
+        <p>01</p>
+        <div>
+          <h4>Collection of information</h4>
+          <p>Lorem, ipsum dolor sit amet consectetu</p>
+        </div>
+      </div>
+
+      <div class="box">
+          <div class="border"></div>
+        <p>02</p>
+        <div>
+          <h4>Strategic planning</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
           </p>
-          <button>See All</button>
-          </div>
-         
         </div>
+      </div>
 
-        <div class="flex">
-          <div>
-            <h4><i class="fas fa-award"></i> Tradition</h4>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptate
-            </p>
-          </div>
-
-          <div>
-            <h4><i class="fas fa-lock"></i> Security</h4>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptate
-            </p>
-          </div>
-
-          <div>
-            <h4><i class="far fa-edit"></i> Cerificate</h4>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptate
-            </p>
-          </div>
-
-          <div>
-            <h4><i class="fas fa-graduation-cap"></i> Expertise</h4>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptate
-            </p>
-          </div>
-
-            <div>
-            <h4><i class="fas fa-graduation-cap"></i> Expertise</h4>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptate
-            </p>
-          </div>
-            <div>
-            <h4><i class="fas fa-graduation-cap"></i> Expertise</h4>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptate
-            </p>
-          </div>
-          
+      <div class="box">
+          <div class="border"></div>
+        <p>03</p>
+        <div>
+          <h4>Assignment of responsibilities</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing</p>
         </div>
-    </section>
+      </div>
+
+      <div class="box">
+          <div class="border"></div>
+        <p>04</p>
+        <div>
+          <h4>Formatting process</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="border"></div>
+        <p>05</p>
+
+        <div>
+          <h4>Continuity formalization</h4>
+          <p>Lorem, ipsum dolor sit amet con Lorem, ipsum dolor sit amet con</p>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
@@ -77,49 +75,73 @@ section {
   display: flex;
   flex-flow: column;
   justify-content: center;
-  padding: 5rem 15rem 5rem 15rem;
   color: $bg-black;
 
-  
-.flex {
-  display: flex;
+  .flex {
+    display: flex;
+    padding: 100px;
+    width: 100%;
 
-  div > p {
-    color: $cloudy;
-  }
-   i {
+    div > p {
+      color: $cloudy;
+    }
+    i {
       color: $elf-green;
     }
-}
+
+    div.box {
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      text-align: center;
+
+      p:first-child {
+        width: 20px;
+        font-weight: bold;
+        background: $sea-nymph;
+        border-radius: 20px;
+        color: $elf-green;
+      }
+    }
+    .border {
+      position: relative;
+      background: $sea-nymph ;
+      height: 2px;
+      width: 100%;
+      top: 10px;
+    }
+  }
 
   div.bs-area {
-
-    div
-     {
-       display:flex;
-       justify-content: space-between;
-     }
-p {
-  width: 70%;
-}
-button {
-   background: $blue-lagoon;
+    div {
+      display: flex;
+      justify-content: center;
+    }
+    p {
+      width: 70%;
+    }
+    button {
+      background: $blue-lagoon;
       color: white;
       border: 1px solid $blue-lagoon;
       border-radius: 3px;
       margin: 10px;
       padding: 3px 10px 3px 10px;
-}
+    }
 
     p {
+      text-align: center;
       padding-top: 15px;
       color: #a5a09d;
     }
     h2 {
+      text-align: center;
+      font-weight: bold;
       font-weight: bold;
     }
 
     h6 {
+      text-align: center;
       color: $elf-green;
       text-transform: uppercase;
       padding-bottom: 10px;
@@ -136,9 +158,7 @@ button {
       display: flex;
       padding-top: 10px;
       padding-bottom: 15px;
-      
     }
   }
 }
-
 </style>

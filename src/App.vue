@@ -4,6 +4,9 @@
     <Main />
     <BusinessArea />
     <ProcessManagement />
+    <TeamOfExpert />
+    <EditorialContent />
+    <NewsLetter />
     <Footer />
   </div>
 </template>
@@ -13,6 +16,9 @@ import Header from "./components/Header.vue";
 import Main from "./components/Main.vue";
 import  BusinessArea  from "@/components/BusinessArea.vue";
 import  ProcessManagement  from "@/components/ProcessManagement.vue";
+import  TeamOfExpert  from "@/components/TeamOfExpert.vue";
+import  EditorialContent  from "@/components/EditorialContent.vue";
+import  NewsLetter  from "@/components/NewsLetter.vue";
 import Footer from "./components/Footer.vue";
 export default {
   name: "App",
@@ -20,6 +26,9 @@ export default {
     Header,
     Main,
     BusinessArea,
+    EditorialContent,
+    TeamOfExpert,
+    NewsLetter,
     ProcessManagement,
     Footer,
   },

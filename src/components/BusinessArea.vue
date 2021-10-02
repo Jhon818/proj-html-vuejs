@@ -1,68 +1,92 @@
 <template>
-      <section>
-        <div class="bs-area">
-          <h6>Our Business Area</h6>
-          <h2>Excellence in<span>Services</span></h2>
-          <div>
-             <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-            mollitia expedita nostrum repellat. At quidem laborum distinctio
+  <section>
+    <div class="bs-area">
+      <h6>Our Business Area</h6>
+      <h2>Excellence in<span>Services</span></h2>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim mollitia
+          expedita nostrum repellat. At quidem laborum distinctio
+        </p>
+        <button>See All</button>
+      </div>
+    </div>
+
+    <div class="flex">
+      <div class="boxes">
+        <div>
+          <span>
+            <i class="fas fa-project-diagram"></i
+            ><i class="fas fa-arrow-right"></i>
+          </span>
+
+          <h4>Audit & Assurance</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
           </p>
-          <button>See All</button>
-          </div>
-         
         </div>
 
-        <div class="flex">
-          <div>
-            <h4><i class="fas fa-award"></i> Tradition</h4>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptate
-            </p>
-          </div>
+        <div>
+          <span>
+            <i class="fas fa-plane-departure"></i
+            ><i class="fas fa-arrow-right"></i>
+          </span>
 
-          <div>
-            <h4><i class="fas fa-lock"></i> Security</h4>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptate
-            </p>
-          </div>
-
-          <div>
-            <h4><i class="far fa-edit"></i> Cerificate</h4>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptate
-            </p>
-          </div>
-
-          <div>
-            <h4><i class="fas fa-graduation-cap"></i> Expertise</h4>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptate
-            </p>
-          </div>
-
-            <div>
-            <h4><i class="fas fa-graduation-cap"></i> Expertise</h4>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptate
-            </p>
-          </div>
-            <div>
-            <h4><i class="fas fa-graduation-cap"></i> Expertise</h4>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptate
-            </p>
-          </div>
-          
+          <h4>Middle Marketing</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+          </p>
         </div>
-    </section>
+      </div>
+
+      <div class="boxes">
+        <div>
+          <span>
+            <i class="fas fa-briefcase"></i><i class="fas fa-arrow-right"></i>
+          </span>
+
+          <h4>Finacial Advisory</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+          </p>
+        </div>
+
+        <div>
+          <span>
+            <i class="fas fa-globe"></i><i class="fas fa-arrow-right"></i>
+          </span>
+
+          <h4>Legal Consulting</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+          </p>
+        </div>
+      </div>
+
+      <div class="boxes">
+        <div>
+          <span>
+            <i class="far fa-chart-bar"></i><i class="fas fa-arrow-right"></i>
+          </span>
+
+          <h4>Analytics and M&A</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+          </p>
+        </div>
+        <div>
+          <span>
+            <i class="fas fa-inbox"></i><i class="fas fa-arrow-right"></i>
+          </span>
+
+          <h4>Regulatory Risk</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
@@ -78,38 +102,53 @@ section {
   flex-flow: column;
   justify-content: center;
   padding: 5rem 15rem 5rem 15rem;
+  background: $black-haze;
   color: $bg-black;
 
-  
-.flex {
-  display: flex;
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    .boxes {
+      margin-right: 13px;
 
-  div > p {
-    color: $cloudy;
-  }
-   i {
-      color: $elf-green;
+      div {
+        margin-bottom: 15px;
+        padding: 20px;
+        background: white;
+
+        span {
+          display: flex;
+          justify-content: space-between;
+        }
+      }
     }
-}
+    div > p {
+      color: $cloudy;
+      padding-top: 10px;
+    }
+    i {
+      color: $elf-green;
+      font-size: 20px;
+      padding-bottom: 10px;
+    }
+  }
 
   div.bs-area {
-
-    div
-     {
-       display:flex;
-       justify-content: space-between;
-     }
-p {
-  width: 70%;
-}
-button {
-   background: $blue-lagoon;
+    div {
+      display: flex;
+      justify-content: space-between;
+    }
+    p {
+      width: 70%;
+    }
+    button {
+      background: $blue-lagoon;
       color: white;
       border: 1px solid $blue-lagoon;
       border-radius: 3px;
       margin: 10px;
       padding: 3px 10px 3px 10px;
-}
+    }
 
     p {
       padding-top: 15px;
@@ -136,9 +175,7 @@ button {
       display: flex;
       padding-top: 10px;
       padding-bottom: 15px;
-      
     }
   }
 }
-
 </style>

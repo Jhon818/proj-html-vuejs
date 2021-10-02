@@ -89,6 +89,24 @@ const footerAbout = {
         environment: "Accessibility ",
         tech: "Information "
 
-    }
+    },
 
-export { headerLinks, footerContact, contactLinks, footerAbout, footerServices, footerSupport }
+ content = [
+        {
+        description:'Increasing creativity is possible for everyone',
+        img: '@/assets/img/news-1.jpg'
+    },
+    {
+        description:'Because market research is part of the business plan',
+        img: '@/assets/img/news-2.jpg'
+    },
+    {
+        description:'Working from home is now a trend',
+        img: '@/assets/img/news-3.jpg'
+    },
+       
+    ]
+       
+    
+
+export { headerLinks, footerContact, contactLinks, footerAbout, footerServices, footerSupport , content}
