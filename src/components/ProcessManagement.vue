@@ -144,7 +144,7 @@ section {
     h2 {
       text-align: center;
       font-weight: bold;
-      font-weight: bold;
+      font-size: 35px;
     }
 
     h6 {

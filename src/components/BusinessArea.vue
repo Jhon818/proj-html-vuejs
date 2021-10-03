@@ -156,6 +156,7 @@ section {
     }
     h2 {
       font-weight: bold;
+      font-size: 35px;
     }
 
     h6 {

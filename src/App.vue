@@ -43,8 +43,7 @@ export default {
   box-sizing: border-box;
 }
 
-// div {
-//   font-family: 'Roboto';
-//   font-weight: bold;
-// }
+div {
+ font-family: 'Public Sans', sans-serif;
+}
 </style>

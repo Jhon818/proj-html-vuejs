@@ -181,8 +181,9 @@ main {
       }
     }
 
-    h2 {
+    h2:last-child {
       font-weight: bold;
+      font-size: 35px;
     }
 
     h6 {

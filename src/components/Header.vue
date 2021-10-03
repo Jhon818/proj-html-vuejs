@@ -123,7 +123,7 @@ header > ul {
     border-radius: 20px 0px 0px 20px;
     background: #0483835b;
     font-weight: bold;
-    width: 3em;
+    width: 100%;
     padding: 10px;
     color: #22918e;
 
@@ -166,7 +166,7 @@ img.img-bg {
   }
   p {
     font-size: 50px;
-    font-weight: bold;
+    font-weight: 800;
   }
 
   form {
