@@ -36,7 +36,7 @@
     <section>
       <nav class="header-btm">
         <div class="nexgen">
-          <span class="nex">NEX<span class="gen">GEN</span></span>
+          <span class="nex">N E X</span><span class="gen"> G E N</span>
         </div>
         <ul>
           <li v-for="(link, index) in links" :key="index">
@@ -124,7 +124,7 @@ header > ul {
     background: #0483835b;
     font-weight: bold;
     width: 100%;
-    padding: 10px;
+    padding: 10px 0px 10px 20px;
     color: #22918e;
 
     .gen {
@@ -132,10 +132,10 @@ header > ul {
     }
   }
   .nexgen {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-right: 8em;
+    position: absolute;
+    left: 10%;
+    top: 12%;
+    display: inline;
   }
 }
 .header-btm > ul {

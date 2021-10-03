@@ -4,7 +4,7 @@
       <ul class="ul-nexgen" v-for="(link, index) in links" :key="index">
         <li>
           <div class="nexgen">
-            <span class="nex">NEX<span class="gen">GEN</span></span>
+            <span class="nex">N E X</span><span class="gen"> G E N</span>
           </div>
         </li>
         <li class="padding">
@@ -343,13 +343,13 @@ footer {
     color: grey;
 
     div.nexgen .nex {
-      display: inline-block;
+      display: inline;
       border-radius: 20px 0px 0px 20px;
       background: #0483835b;
-      width: 3em;
-      padding: 6px 10px 10px 20px;
+      padding: 6px 2px 10px 20px;
       color: #22918e;
       font-weight: bold;
+      
 
       .gen {
         color: white;
@@ -367,7 +367,7 @@ footer {
     display: flex;
     flex-flow: column nowrap;
     list-style: none;
-    width: 13rem;
+    width: 14rem;
     height: 100%;
     background: #1c2224;
     margin: 10px;
