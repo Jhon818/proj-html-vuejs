@@ -3,8 +3,8 @@
     <section>
       <div>
         <div class="title">
- <h6>WE LIKE WHAT WE DO</h6>
-        <h2><span>Team</span> Of Experts</h2>
+          <h6>WE LIKE WHAT WE DO</h6>
+          <h2><span>Team</span> Of Experts</h2>
         </div>
         <p>
           Ethics and integrity are the basis on which our professionals build
@@ -122,14 +122,14 @@ main {
     display: inline-flex;
     align-items: center;
 
-.title {
-  position: relative;
-  bottom: 30px;
+    .title {
+      position: relative;
+      bottom: 30px;
 
-  h6 {
-    padding-bottom: 20px;
-  }
-}
+      h6 {
+        padding-bottom: 20px;
+      }
+    }
     .team {
       position: relative;
       top: 2em;

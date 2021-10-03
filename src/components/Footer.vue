@@ -349,7 +349,6 @@ footer {
       padding: 6px 2px 10px 20px;
       color: #22918e;
       font-weight: bold;
-      
 
       .gen {
         color: white;

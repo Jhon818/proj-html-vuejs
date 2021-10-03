@@ -44,6 +44,6 @@ export default {
 }
 
 div {
- font-family: 'Public Sans', sans-serif;
+  font-family: "Public Sans", sans-serif;
 }
 </style>
