@@ -2,12 +2,13 @@
   <div>
     <section>
       <div class="insurance-form">
-           <div>
+        <div>
           <p>NEWSLETTER</p>
           <p><span class="know">Know</span> First</p>
-          <p>Follow closely and receive content about our company and the news of the current market</p>
-
-          
+          <p>
+            Follow closely and receive content about our company and the news of
+            the current market
+          </p>
         </div>
         <form action="">
           <input type="text" placeholder="Name" />
@@ -40,15 +41,15 @@ img.img-bg {
   position: relative;
   height: 50vh;
 
-div {
+  div {
     position: absolute;
     width: 50%;
     top: 30%;
     left: 20%;
-}
-.know {
-     background:$elf-green;
-}
+  }
+  .know {
+    background: $elf-green;
+  }
 
   p:first-child {
     color: #048383;
@@ -58,8 +59,8 @@ div {
   }
 
   p:last-child {
-      padding-top: 10px;
-      width: 50%;
+    padding-top: 10px;
+    width: 50%;
     color: white;
     padding-bottom: 10px;
     font-size: 15px;

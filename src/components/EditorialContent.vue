@@ -12,15 +12,13 @@
     </div>
 
     <div class="flex">
-     <!-- creating a cicle and get it through images -->
-     <ul class="boxes" v-for="(link, index) in links" :key="index">
-         <img :src="`{{link.img}}`" alt="">
-         <div id="overlay">
-<p>{{link.description}}</p>
-         </div>
-          
-         </ul>   
-     
+      <!-- creating a cicle and get it through images -->
+      <ul class="boxes" v-for="(link, index) in links" :key="index">
+        <img :src="link.img" alt="" />
+        <div id="overlay">
+          <p>{{ link.description }}</p>
+        </div>
+      </ul>
     </div>
   </section>
 </template>
@@ -29,9 +27,9 @@
 import * as cicle_links from "@/assets/cicle_links.js";
 export default {
   name: "EditorialContent",
-   data() {
+  data() {
     return {
-      links: cicle_links.content
+      links: cicle_links.content,
     };
   },
 };
@@ -46,44 +44,44 @@ section {
   padding: 5rem 15rem 5rem 15rem;
   background: $black-haze;
   color: $bg-black;
-  
-.flex {
-  display: inline-flex;
-  align-items: center;
-  justify-content: space-between;
 
-  #overlay{
-    position:absolute;
-    top:0px;
-    left:0px;
-    bottom:0px;
-    right:0px;
-    background-color:rgba(10, 10, 10, 0.5);
-    border-radius: 10px;
-    margin-bottom: 5px;
+  .flex {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
 
-    p {
+    #overlay {
       position: absolute;
-      color: white;
-      width: 100%;
-      text-align: center;
-      padding: 20%;
-      top: 80%;
-      left: 50%;
-      transform: translate(-50%,-50%);
-      font-weight: bold;
-    }
-}
+      top: 0px;
+      left: 0px;
+      bottom: 0px;
+      right: 0px;
+      background-color: rgba(10, 10, 10, 0.5);
+      border-radius: 10px;
+      margin-bottom: 5px;
 
-ul.boxes {
- width: 30%;
- position: relative;
-}
-  img {
-    width: 100%;
-    border-radius: 10px;
+      p {
+        position: absolute;
+        color: white;
+        width: 100%;
+        text-align: center;
+        padding: 20%;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+      }
+    }
+
+    ul.boxes {
+      width: 30%;
+      position: relative;
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
   }
-}
 
   div.bs-area {
     div {
@@ -122,8 +120,6 @@ ul.boxes {
       color: $elf-green;
       padding: 5px 8px 5px 8px;
     }
-
-  
   }
 }
 </style>

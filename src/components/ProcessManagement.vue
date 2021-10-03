@@ -13,18 +13,18 @@
 
     <div class="flex">
       <div class="box">
-          <div class="border"></div>
-        <p>01</p>
-        <div>
+        <div class="border"></div>
+        <p class="number">01</p>
+        <div class="description">
           <h4>Collection of information</h4>
           <p>Lorem, ipsum dolor sit amet consectetu</p>
         </div>
       </div>
 
       <div class="box">
-          <div class="border"></div>
-        <p>02</p>
-        <div>
+        <div class="border"></div>
+        <p class="number">02</p>
+        <div class="description">
           <h4>Strategic planning</h4>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
@@ -33,18 +33,18 @@
       </div>
 
       <div class="box">
-          <div class="border"></div>
-        <p>03</p>
-        <div>
+        <div class="border"></div>
+        <p class="number">03</p>
+        <div class="description">
           <h4>Assignment of responsibilities</h4>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing</p>
         </div>
       </div>
 
       <div class="box">
-          <div class="border"></div>
-        <p>04</p>
-        <div>
+        <div class="border"></div>
+        <p class="number">04</p>
+        <div class="description">
           <h4>Formatting process</h4>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
@@ -52,9 +52,9 @@
 
       <div class="box">
         <div class="border"></div>
-        <p>05</p>
+        <p class="number">05</p>
 
-        <div>
+        <div class="description">
           <h4>Continuity formalization</h4>
           <p>Lorem, ipsum dolor sit amet con Lorem, ipsum dolor sit amet con</p>
         </div>
@@ -79,7 +79,6 @@ section {
 
   .flex {
     display: flex;
-    padding: 100px;
     width: 100%;
 
     div > p {
@@ -95,24 +94,32 @@ section {
       align-items: center;
       text-align: center;
 
-      p:first-child {
-        width: 20px;
-        font-weight: bold;
-        background: $sea-nymph;
-        border-radius: 20px;
+      p.number {
+        background: $black-haze;
+        border-radius: 100%;
         color: $elf-green;
+        padding: 2px;
+      }
+      .description {
+        padding: 0em 3em 3em 3em;
+
+        h4 {
+          margin: 10px;
+        }
       }
     }
     .border {
       position: relative;
-      background: $sea-nymph ;
+      background: $black-haze;
       height: 2px;
       width: 100%;
       top: 10px;
+      z-index: -1;
     }
   }
 
   div.bs-area {
+    padding: 3em;
     div {
       display: flex;
       justify-content: center;

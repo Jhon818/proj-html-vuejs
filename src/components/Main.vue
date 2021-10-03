@@ -1,61 +1,56 @@
 <template>
   <main>
-      <section>
+    <section>
+      <div>
+        <h6>About The Network</h6>
+        <h2><span>The</span> Company</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim mollitia
+          expedita nostrum repellat. At quidem laborum distinctio tempore quasi
+          quisquam. Hic maxime rem dignissimos repellat laboriosam quos tempore
+          aliquid nostrum!
+        </p>
+        <br />
+        <p>
+          qui fugit, repellendus saepe! Animi aliquid ipsa et quis obcaecati
+          quasi eaque?
+        </p>
+      </div>
+
+      <div>
         <div>
-          <h6>About The Network</h6>
-          <h2><span>The</span> Company</h2>
+          <h4><i class="fas fa-award"></i> Tradition</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-            mollitia expedita nostrum repellat. At quidem laborum distinctio
-            tempore quasi quisquam. Hic maxime rem dignissimos repellat
-            laboriosam quos tempore aliquid nostrum!
-          </p>
-          <br />
-          <p>
-            qui fugit, repellendus saepe! Animi aliquid ipsa et quis obcaecati
-            quasi eaque?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
           </p>
         </div>
 
         <div>
-          <div>
-            <h4><i class="fas fa-award"></i> Tradition</h4>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptate
-            </p>
-          </div>
-
-          <div>
-            <h4><i class="fas fa-lock"></i> Security</h4>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptate
-            </p>
-          </div>
-
-          <div>
-            <h4><i class="far fa-edit"></i> Cerificate</h4>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptate
-            </p>
-          </div>
-
-          <div>
-            <h4><i class="fas fa-graduation-cap"></i> Expertise</h4>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptate
-            </p>
-          </div>
+          <h4><i class="fas fa-lock"></i> Security</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+          </p>
         </div>
+
+        <div>
+          <h4><i class="far fa-edit"></i> Cerificate</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+          </p>
+        </div>
+
+        <div>
+          <h4><i class="fas fa-graduation-cap"></i> Expertise</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+          </p>
+        </div>
+      </div>
     </section>
   </main>
 </template>
 
 <script>
-
 export default {
   name: "Main",
 };

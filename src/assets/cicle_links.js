@@ -91,22 +91,46 @@ const footerAbout = {
 
     },
 
- content = [
+    content = [
         {
-        description:'Increasing creativity is possible for everyone',
-        img: '@/assets/img/news-1.jpg'
-    },
-    {
-        description:'Because market research is part of the business plan',
-        img: '@/assets/img/news-2.jpg'
-    },
-    {
-        description:'Working from home is now a trend',
-        img: '@/assets/img/news-3.jpg'
-    },
-       
-    ]
-       
-    
+            description: 'Increasing creativity is possible for everyone',
+            img: require(`@/assets/img/news-1.jpg`),
+        },
+        {
+            description: 'Because market research is part of the business plan',
+            img: require(`@/assets/img/news-2.jpg`),
+        },
+        {
+            description: 'Working from home is now a trend',
+            img: require(`@/assets/img/news-3.jpg`),
+        },
 
-export { headerLinks, footerContact, contactLinks, footerAbout, footerServices, footerSupport , content}
+    ],
+
+    teamOfExpert = [
+        {
+            name: "David Cooper",
+            work: "CTO & CO-FOUNDER",
+            img: require(`@/assets/img/team-1.jpg`),
+        },
+        {
+            name: "Olicer Jones",
+            work: "CHIEF PROCUREMENT",
+            img: require(`@/assets/img/team-2.jpg`),
+
+        },
+        {
+            name: "Emma Lopez",
+            work: "CHIEF MARKETING",
+            img: require(`@/assets/img/team-3.jpg`),
+        },
+        {
+            name: "T.Johnson",
+            work: "CEO & PRESIDENT",
+            img: require(`@/assets/img/team-4.jpg`),
+        }
+    ]
+
+
+
+export { headerLinks, footerContact, contactLinks, footerAbout, footerServices, footerSupport, content, teamOfExpert }
