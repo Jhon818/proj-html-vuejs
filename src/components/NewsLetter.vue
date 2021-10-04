@@ -48,7 +48,7 @@ img.img-bg {
     left: 20%;
   }
   .know {
-    background: $elf-green;
+    background: #034e58;
   }
 
   p:first-child {

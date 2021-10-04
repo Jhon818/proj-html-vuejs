@@ -101,6 +101,7 @@ section {
         padding: 2px;
       }
       .description {
+        width: 100%;
         padding: 0em 3em 3em 3em;
 
         h4 {
